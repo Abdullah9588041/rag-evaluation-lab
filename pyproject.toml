@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-evaluation-lab"
+version = "0.1.0"
+description = "RAG retrieval bake-off: chunking x retrieval x rerank with statistical evaluation"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
